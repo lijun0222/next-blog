@@ -103,6 +103,7 @@ export default function PostLayout(props: Props) {
             <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
               {src ? (
                 <div className="mt-6">
+                  {/* <Image alt={title} layout='fill' src={src}/> */}
                   <img alt={title} className="w-full rounded object-cover shadow-lg" src={src} />
                 </div>
               ) : null}
